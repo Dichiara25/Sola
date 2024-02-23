@@ -15,7 +15,7 @@ Coming soon 😎
 
 - Start by cloning the project:
 
-`$ git clone git@github.com/Dichiara25/Sola.git`
+`$ git clone git@github.com:Dichiara25/Sola.git`
 
 - Navigate into the Sola folder:
 
