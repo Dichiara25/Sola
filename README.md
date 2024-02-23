@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌞 Sola
 
 Sola is a SaaS project helping users to create shareable quizzes by providing texts, videos or PDFs documents as inputs. No need to say that this tool leverages the most famous LLM APIs.
@@ -25,8 +26,10 @@ Coming soon 😎
 
 ```
 $ npm run dev
-$ yarn run dev
+$ yarn dev
 ```
+
+- Navigate to localhost:3000 to see the results.
 
 ## 🖊️ Contact
 
