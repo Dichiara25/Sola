@@ -6,3 +6,27 @@
   padding: 1rem 2rem;
   min-height: 100vh;
 }
+
+.dot {
+  position: absolute;
+  height: 110vh;
+  width: 150vw;
+  background-color: var(--background-color);
+  box-shadow: 0 0 2cap 5px var(--first-color);
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    top: -55vh;
+    opacity: 0;
+  }
+  to {
+    top: -50vh;
+    opacity: 1;
+  }
+}

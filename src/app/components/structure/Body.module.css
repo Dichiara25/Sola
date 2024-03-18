@@ -7,12 +7,24 @@
     padding: 4rem 2rem;
   }
 
-  .subtitle {
+.subtitle {
     font-size: "large";
     opacity: .8;
-  }
+}
 
-  .paragraph {
+.paragraph {
     max-width: 600px;
     text-align: justify;
-  }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1500px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}

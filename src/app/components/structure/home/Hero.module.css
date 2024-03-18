@@ -1,0 +1,25 @@
+.main {
+    font-size: larger;
+    margin: 5vh 0 70vh 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.quizz {
+    position: relative;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    top: -140px;
+    left: -100px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: var(--light-background-color);
+    box-shadow: 0 0 25px 5px var(--first-color);
+}
+
+@media (max-width: 1500px) {
+    .quizz {
+        right: 0;
+    }
+}

@@ -10,9 +10,10 @@ export function Brand() {
 
 export function Navigation() {
     return <>
-        <a href={routes.pricing}>Pricing</a>
-        <a href={routes.login} style={{marginLeft: "50px"}}>
-            <button>Generate →</button>
+        <a href={routes.pricing} style={{marginLeft: "50px"}}>Pricing</a>
+        <a href={routes.pricing} style={{marginLeft: "50px"}}>API</a>
+        <a href={routes.login} style={{marginLeft: "50px"}} className={styles.login}>
+            <button>Sign in</button>
         </a>
     </>
 }
