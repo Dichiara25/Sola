@@ -1,10 +1,9 @@
 import { routes } from "@/app/utils/routes"
 import styles from "./Header.module.css"
-import { APP_NAME } from "@/app/utils/layout"
 
 export function Brand() {
     return <a style={{display: "flex", alignItems: "center"}} href="/">
-        <h1 className={styles.brand}>{APP_NAME}</h1>
+        <h1 className={styles.brand}>{process.env.APP_NAME}</h1>
     </a>
 }
 

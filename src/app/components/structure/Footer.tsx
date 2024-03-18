@@ -1,4 +1,3 @@
-import { APP_NAME } from "@/app/utils/layout";
 import styles from "./Footer.module.css";
 import { routes } from "@/app/utils/routes";
 
@@ -14,11 +13,11 @@ export default function Footer() {
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                 <div style={{display: "flex", flexDirection: "row"}}>
                     <h1 style={{fontSize: 'x-large', margin: '0 5px'}}>
-                        {APP_NAME}
+                        {process.env.NEXT_PUBLIC_APP_NAME}
                     </h1>
                 </div>
                 <div style={{marginTop: "20px", fontSize: "large"}}>
-                    © {APP_NAME} {currentYear}
+                    © {process.env.APP_NAME} {currentYear}
                 </div>
             </div>
             <div style={{margin: "0 50px", opacity: ".3"}}>

@@ -1,4 +1,3 @@
-import { APP_NAME } from '@/app/utils/layout'
 import PodcastPicture from "@/app/assets/podcast.png"
 import heroStyles from './Hero.module.css'
 import bodyStyles from '../Body.module.css'
@@ -77,7 +76,7 @@ function CallToAction() {
             Unleash your true learning self
         </h1>
         <div className={heroStyles.subtitle}>
-            {APP_NAME} generates <b>quizzes</b> with your videos and PDF documents.
+            {process.env.APP_NAME} generates <b>quizzes</b> with your videos and PDF documents.
         </div>
         <button style={{margin: "50px"}}>
             Generate quizz ✨
