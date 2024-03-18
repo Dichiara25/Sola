@@ -17,7 +17,7 @@ export default function Footer() {
                     </h1>
                 </div>
                 <div style={{marginTop: "20px", fontSize: "large"}}>
-                    © {process.env.APP_NAME} {currentYear}
+                    © {process.env.NEXT_PUBLIC_APP_NAME} {currentYear}
                 </div>
             </div>
             <div style={{margin: "0 50px", opacity: ".3"}}>

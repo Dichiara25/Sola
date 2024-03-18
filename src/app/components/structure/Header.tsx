@@ -3,7 +3,7 @@ import styles from "./Header.module.css"
 
 export function Brand() {
     return <a style={{display: "flex", alignItems: "center"}} href="/">
-        <h1 className={styles.brand}>{process.env.APP_NAME}</h1>
+        <h1 className={styles.brand}>{process.env.NEXT_PUBLIC_APP_NAME}</h1>
     </a>
 }
 

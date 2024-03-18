@@ -76,7 +76,7 @@ function CallToAction() {
             Unleash your true learning self
         </h1>
         <div className={heroStyles.subtitle}>
-            {process.env.APP_NAME} generates <b>quizzes</b> with your videos and PDF documents.
+            {process.env.NEXT_PUBLIC_APP_NAME} generates <b>quizzes</b> with your videos and PDF documents.
         </div>
         <button style={{margin: "50px"}}>
             Generate quizz ✨
