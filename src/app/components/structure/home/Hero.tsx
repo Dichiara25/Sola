@@ -79,7 +79,7 @@ function CallToAction() {
             {process.env.NEXT_PUBLIC_APP_NAME} uses AI to generate <b>quizzes</b> based on your videos and PDFs.
         </div>
         <button style={{margin: "50px"}}>
-            Generate quizz ✨
+            Generate quizz
         </button>
     </div>
 }

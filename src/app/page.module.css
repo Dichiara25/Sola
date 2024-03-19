@@ -9,7 +9,7 @@
 
 .dot {
   position: absolute;
-  height: 110vh;
+  height: 120vh;
   width: 150vw;
   background-color: var(--background-color);
   box-shadow: 0 0 2cap 5px var(--first-color);

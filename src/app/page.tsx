@@ -6,6 +6,7 @@ import Landing from "./components/structure/home/Landing";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.dot} />
       <Header />
       <Landing />
       <Footer />
