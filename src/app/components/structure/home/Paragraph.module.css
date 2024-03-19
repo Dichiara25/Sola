@@ -5,12 +5,16 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    margin: 15vh 0;
 }
 
 .paragraph {
     padding: 0 100px;
     display: flex;
     flex-direction: column;
+    max-width: 40vw;
+    align-items: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 50em)  {

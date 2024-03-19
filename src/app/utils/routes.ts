@@ -5,4 +5,5 @@ export const routes = {
     'cook': '/cook',
     'privacy': '/privacy',
     'termsOfUse': '/terms',
+    'api': '/api',
 }

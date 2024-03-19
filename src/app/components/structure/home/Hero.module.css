@@ -1,8 +1,12 @@
 .main {
     font-size: larger;
-    margin: 5vh 0 70vh 0;
+    margin: 5vh 0;
     text-align: center;
     z-index: 1;
+}
+
+.subtitle {
+    font-size: smaller;
 }
 
 .quizz {
