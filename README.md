@@ -4,12 +4,14 @@ Sola is a SaaS project helping users to create shareable quizzes by providing te
 
 ## 🔗 Link
 
-Coming soon 😎
+**(sola.rocks)[https://sola.rocks]**
 
 ## 🛠️ Tech stack
 
 - **Frontend:** Next.js
-- **Backend:** Supabase (using this project to give it a try)
+- **Backend:** Node.js (with Cloud Functions)
+- **Database:** Firestore
+- **Hosting:** Vercel
 
 ## 💻 Installing (Linux)
 
@@ -32,4 +34,6 @@ $ yarn dev
 
 ## 🖊️ Contact
 
-You can reach me out by sending me an email to this [address](mailto:edclrcq@gmail.com). No SLA regarding my reply speed.
+- If you encounter any problems using the service, you can reach out **[support](mailto:support@sola.rocks)**;
+- If you are willing to negotiate prices for your company, you can reach out **[sales](mailto:sales@sola.rocks)**;
+- For any security-related questions or findings, you can reach out **[security](mailto:security@sola.rocks)**.
