@@ -24,6 +24,6 @@
 
 @media (max-width: 1500px) {
     .quizz {
-        right: 0;
+        left: 0;
     }
 }

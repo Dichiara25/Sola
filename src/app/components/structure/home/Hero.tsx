@@ -52,9 +52,10 @@ function MockedQuizz() {
 
 function Illustration() {
     return <div style={{
-        display: "flex",
-        flexDirection: "column",
-        position: "relative"
+            display: "flex",
+            flexDirection: "column",
+            position: "relative",
+            alignItems: "center"
         }}
     >
         <Image

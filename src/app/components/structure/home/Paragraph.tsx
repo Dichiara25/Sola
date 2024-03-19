@@ -9,7 +9,7 @@ function Text(props: {title: string, content: string, callToAction: string, link
     return <div className={styles.paragraph}>
         <h1>{props.title}</h1>
         <div>{props.content}</div>
-        <a href={props.link} style={{marginTop: "50px"}}>
+        <a href={props.link} style={{margin: "50px 0"}}>
             <button>{props.callToAction}</button>
         </a>
     </div>
