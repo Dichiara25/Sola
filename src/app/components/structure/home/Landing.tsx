@@ -28,7 +28,7 @@ export default function Landing() {
         </ScrollAppear>
         <ScrollAppear>
             <Paragraph
-                title={"Streamline your corporate training"}
+                title={"Streamline corporate training"}
                 content={`Using ${process.env.NEXT_PUBLIC_APP_NAME}, upgrade your training materials by converting online meetings, corporate documentation and instructional videos into interactive quizzes.`}
                 image={Meeting}
                 alt={"A business woman attending an online meeting with a happy face"}
