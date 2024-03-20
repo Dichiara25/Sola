@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 30px 60px;
+    border-radius: 20px;
+    background-color: var(--light-background-color);
+    max-width: 40vw;
+    height: 250px;
+}
+
+.verticalCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.comment {
+    font-size: larger;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 100px;
+    left: -30px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: var(--first-color);
+    opacity: .8;
+    transition: all .2s ease-in-out
+}
+
+.leftArrow:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 100px;
+    right: -30px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: var(--first-color);
+    opacity: .8;
+    transition: all .2s ease-in-out
+}
+
+.rightArrow:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+}
+

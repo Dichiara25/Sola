@@ -8,6 +8,7 @@ import Student from "../../../assets/student.png";
 import Meeting from "../../../assets/meeting.png";
 import Developer from "../../../assets/developer.png"
 import { routes } from "@/app/utils/routes";
+import Feedbacks from "./Feedbacks";
 
 export default function Landing() {
     return <div className={styles.main}>
@@ -46,6 +47,9 @@ export default function Landing() {
                 link={routes.api}
                 reverse={true}
             />
+        </ScrollAppear>
+        <ScrollAppear>
+            <Feedbacks />
         </ScrollAppear>
     </div>
 }
