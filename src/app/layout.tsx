@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Sola",
-  description: "An AI-driven quizz generation tool",
+  description: "An AI-driven quiz generation tool",
 };
 
 export default function RootLayout({

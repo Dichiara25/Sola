@@ -9,7 +9,7 @@
     font-size: smaller;
 }
 
-.quizz {
+.quiz {
     position: relative;
     font-size: smaller;
     display: flex;
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 1500px) {
-    .quizz {
+    .quiz {
         left: 0;
     }
 }

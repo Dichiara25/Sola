@@ -34,10 +34,11 @@ export default function ScrollAppear(props: { children: ReactNode }) {
         };
       }, []);
 
-    return (<div className={style.container}>
-      <div className={`${isVisible ? style.visible : style.hidden}`} ref={containerRef}>
-        {props.children}
-      </div>
+    return (
+      <div className={style.container}>
+        <div className={`${isVisible ? style.visible : style.hidden}`} ref={containerRef}>
+          {props.children}
+        </div>
       </div>
     );
   };

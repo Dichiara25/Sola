@@ -12,7 +12,7 @@ export function Navigation() {
         <a href={routes.pricing} style={{marginLeft: "50px"}}>Pricing</a>
         <a href={routes.api} style={{marginLeft: "50px"}}>API</a>
         <a href={routes.cook} style={{marginLeft: "50px"}} className={styles.login}>
-            <button>Generate quizz</button>
+            <button>Generate quiz</button>
         </a>
     </>
 }

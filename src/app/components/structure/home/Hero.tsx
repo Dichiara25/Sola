@@ -4,14 +4,14 @@ import bodyStyles from '../Body.module.css'
 import Image from 'next/image'
 import { useState } from 'react'
 
-interface QuizzQuestion {
+interface quizQuestion {
     "question": string,
     "answer": string,
     "feedback": string,
     "hint": string
 }
 
-const QuizzQuestions: QuizzQuestion[] = [
+const quizQuestions: quizQuestion[] = [
     {
         "question": "📚 Which book was recommended during the podcast?",
         "answer": "The Power of Habits",
@@ -26,18 +26,18 @@ const QuizzQuestions: QuizzQuestion[] = [
     }
 ]
 
-function MockedQuizz() {
+function Mockedquiz() {
     const [questionIndex, setQuestionIndex] = useState(0);
 
-    return <div className={heroStyles.quizz}>
-        <b className={heroStyles.question}>{QuizzQuestions[questionIndex].question}</b>
+    return <div className={heroStyles.quiz}>
+        <b className={heroStyles.question}>{quizQuestions[questionIndex].question}</b>
         <input
-            value={QuizzQuestions[questionIndex].answer}
+            value={quizQuestions[questionIndex].answer}
             type={"text"}
             disabled
         />
-        <b className={heroStyles.question} style={{fontSize: "smaller", margin: "5px"}}>{QuizzQuestions[questionIndex].feedback}</b>
-        <b className={heroStyles.question} style={{fontSize: "smaller", margin: "5px"}}>{QuizzQuestions[questionIndex].hint}</b>
+        <b className={heroStyles.question} style={{fontSize: "smaller", margin: "5px"}}>{quizQuestions[questionIndex].feedback}</b>
+        <b className={heroStyles.question} style={{fontSize: "smaller", margin: "5px"}}>{quizQuestions[questionIndex].hint}</b>
         <button style={{
                 marginTop: "20px",
                 boxShadow: "none",
@@ -63,7 +63,7 @@ function Illustration() {
             width={500}
             alt={"A picture showing two women recording a podcast"}
         />
-        <MockedQuizz />
+        <Mockedquiz />
     </div>
 }
 
@@ -80,7 +80,7 @@ function CallToAction() {
             {process.env.NEXT_PUBLIC_APP_NAME} uses AI to generate <b>quizzes</b> based on your videos and PDFs.
         </div>
         <button style={{margin: "50px"}}>
-            Generate quizz
+            Generate quiz
         </button>
     </div>
 }

@@ -9,11 +9,15 @@ import Meeting from "../../../assets/meeting.png";
 import Developer from "../../../assets/developer.png"
 import { routes } from "@/app/utils/routes";
 import Feedbacks from "./Feedbacks";
+import How from "./How";
 
 export default function Landing() {
     return <div className={styles.main}>
         <ScrollAppear>
             <Hero />
+        </ScrollAppear>
+        <ScrollAppear>
+            <How />
         </ScrollAppear>
         <ScrollAppear>
             <Paragraph
@@ -40,7 +44,7 @@ export default function Landing() {
         <ScrollAppear>
             <Paragraph
                 title={"Adapted to your workflow"}
-                content={`${process.env.NEXT_PUBLIC_APP_NAME} exposes a REST API so you can embed your quizz generation use cases right into your workflows. By providing an interface out of the box, ${process.env.NEXT_PUBLIC_APP_NAME} relieves you from having to create your own.`}
+                content={`${process.env.NEXT_PUBLIC_APP_NAME} exposes a REST API so you can embed your quiz generation use cases right into your workflows. By providing an interface out of the box, ${process.env.NEXT_PUBLIC_APP_NAME} relieves you from having to create your own.`}
                 image={Developer}
                 alt={"A happy developer in front of an IDE"}
                 callToAction={"Get your API key"}
