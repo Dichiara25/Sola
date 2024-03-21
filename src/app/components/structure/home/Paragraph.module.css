@@ -17,6 +17,15 @@
     text-align: justify;
 }
 
+.quote {
+    position: absolute;
+    bottom: -10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--light-background-color);
+    box-shadow: 0 0 5px 5px var(--first-color);
+}
+
 @media screen and (max-width: 1500px)  {
     .main{
         flex-direction: column;
