@@ -1,4 +1,5 @@
 import howStyles from "./How.module.css"
+import bodyStyles from "../Body.module.css"
 
 interface Step {
     title: string,
@@ -19,7 +20,7 @@ export default function How() {
             icon: "✨"
         },
         {
-            title: "Customize & Integrate",
+            title: "Integrate",
             description: "Adjust the questionnaire to your needs and seamlessly integrate it into your workflow via our API.",
             icon: "⚙️"
         },
@@ -32,6 +33,7 @@ export default function How() {
 
     return <div className={howStyles.main}>
         <h1>How does it work?</h1>
+        <div className={bodyStyles.subtitle}>Discover how {process.env.NEXT_PUBLIC_APP_NAME} works under the hood.</div>
         <div className={howStyles.container}>
             {steps.map((step: Step, index: number) => (
             <div key={index} className={howStyles.box}>

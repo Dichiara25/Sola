@@ -8,6 +8,10 @@
     margin: 10vh 0;
 }
 
+.illustration {
+    position: relative;
+}
+
 .paragraph {
     padding: 0 100px;
     display: flex;
@@ -19,11 +23,22 @@
 
 .quote {
     position: absolute;
-    bottom: -10px;
-    padding: 20px;
+    font-weight: bold;
+    bottom: -30px;
+    padding: 20px 40px;
     border-radius: 10px;
     background-color: var(--light-background-color);
     box-shadow: 0 0 5px 5px var(--first-color);
+}
+
+.icon {
+    position: absolute;
+    top: -30px;
+    font-size: xx-large;
+    padding: 30px;
+    background-color: var(--light-background-color);
+    border-radius: 100px;
+    box-shadow: 0 0 5px 5px var(--second-color);
 }
 
 @media screen and (max-width: 1500px)  {
