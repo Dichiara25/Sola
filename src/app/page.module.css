@@ -30,3 +30,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 1500px) {
+  .dot {
+    display: none;
+  }
+}
