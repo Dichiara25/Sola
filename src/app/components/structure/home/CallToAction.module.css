@@ -1,0 +1,15 @@
+.main {
+    margin-top: 150px;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 80px;
+    border-radius: 20px;
+    background-color: var(--light-background-color);
+}
+
+.button {
+    margin: 50px 0;
+    width: 100%;
+}

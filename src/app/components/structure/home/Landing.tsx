@@ -6,6 +6,7 @@ import styles from '../Body.module.css';
 import Feedbacks from "./Feedbacks";
 import How from "./How";
 import UseCases from "./UseCases";
+import CallToAction from "./CallToAction";
 
 export default function Landing() {
     return <div className={styles.main}>
@@ -18,6 +19,9 @@ export default function Landing() {
         <UseCases />
         <ScrollAppear>
             <Feedbacks />
+        </ScrollAppear>
+        <ScrollAppear>
+            <CallToAction />
         </ScrollAppear>
     </div>
 }

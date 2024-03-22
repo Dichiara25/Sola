@@ -53,7 +53,7 @@ export default function UseCases() {
             callToAction: "Get your API key",
             link: routes.api,
             reverse: false,
-            quote: "Automate quiz generations!",
+            quote: "Automate quiz generation!",
             icon: "⚒️"
         }
     ]
