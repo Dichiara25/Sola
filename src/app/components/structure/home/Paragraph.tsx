@@ -1,16 +1,19 @@
 import Image from 'next/image'
 import paragraphStyles from './Paragraph.module.css'
 import bodyStyles from "../Body.module.css"
+import ScrollAppear from '../../ScrollAppear'
 
 function Illustration(props: {image: any, alt: string, quote: string, reverse: boolean, icon: string}) {
     return <div className={paragraphStyles.illustration}>
         <Image src={props.image} width={500} alt={props.alt} />
-        <div
-            style={props.reverse ? {right: "-30px"} : {left: "-30px"}}
-            className={paragraphStyles.quote}
-        >
-            {props.quote}
-        </div>
+        <ScrollAppear>
+            <div
+                style={props.reverse ? {right: "-30px"} : {left: "-30px"}}
+                className={paragraphStyles.quote}
+            >
+                {props.quote}
+            </div>
+        </ScrollAppear>
         <div
             style={props.reverse ? {left: "-30px"} : {right: "-30px"}}
             className={paragraphStyles.icon}

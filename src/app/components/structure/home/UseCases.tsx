@@ -59,7 +59,7 @@ export default function UseCases() {
     ]
 
     return <div className={styles.main}>
-        <h1>Use cases</h1>
+        <h1>What can {process.env.NEXT_PUBLIC_APP_NAME} be used for?</h1>
         <div className={styles.subtitle}>Discover some use cases in which you could leverage {process.env.NEXT_PUBLIC_APP_NAME}.</div>
         {
             useCases
