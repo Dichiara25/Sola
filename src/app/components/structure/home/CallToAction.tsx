@@ -10,7 +10,7 @@ export default function CallToAction() {
         </div>
         <div className={styles.button}>
             <a href={routes.cook}>
-                <button>
+                <button style={{width: "100%", margin: "0"}}>
                     Try {process.env.NEXT_PUBLIC_APP_NAME}
                 </button>
             </a>

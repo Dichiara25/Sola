@@ -1,7 +1,7 @@
 .main {
     margin-top: 150px;
     text-align: center;
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px 80px;
@@ -11,5 +11,4 @@
 
 .button {
     margin: 50px 0;
-    width: 100%;
 }
