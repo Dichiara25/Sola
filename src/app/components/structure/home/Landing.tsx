@@ -7,6 +7,7 @@ import Feedbacks from "./Feedbacks";
 import How from "./How";
 import UseCases from "./UseCases";
 import CallToAction from "./CallToAction";
+import Pricing from "./Pricing";
 
 export default function Landing() {
     return <div className={styles.main}>
@@ -19,6 +20,9 @@ export default function Landing() {
         <UseCases />
         <ScrollAppear>
             <Feedbacks />
+        </ScrollAppear>
+        <ScrollAppear>
+            <Pricing />
         </ScrollAppear>
         <ScrollAppear>
             <CallToAction />

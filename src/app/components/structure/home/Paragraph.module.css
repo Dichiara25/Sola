@@ -39,11 +39,10 @@
     background-color: var(--light-background-color);
     border-radius: 100px;
     box-shadow: 0 0 5px 5px var(--first-color);
-    animation: float 2s ease-in-out infinite;
 }
 
 @media screen and (max-width: 1500px)  {
-    .main{
+    .main {
         flex-direction: column;
         margin: 10vh 0;
     }
@@ -54,16 +53,4 @@
         align-items: center;
         text-align: justify;
     }
-}
-
-@keyframes float {
-	0% {
-		transform: rotate(-10deg);
-	}
-	50% {
-        transform: rotate(10deg);
-	}
-	100% {
-        transform: rotate(-10deg);
-	}
 }

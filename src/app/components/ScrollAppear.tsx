@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect, ReactNode, useRef, Dispatch, SetStateAction } from 'react';
+import React, { useState, useEffect, ReactNode, useRef } from 'react';
 import style from './ScrollAppear.module.css'; // Create a CSS file for styling
 
 export default function ScrollAppear(props: { children: ReactNode }) {
