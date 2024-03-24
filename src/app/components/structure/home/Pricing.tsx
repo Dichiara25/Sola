@@ -16,30 +16,56 @@ interface Plan {
 
 const availablePlans: Plan[] = [
     {
-        title: "Free tier",
+        title: "Free",
         price: 0,
         callToAction: "Create an account",
         link: routes.login,
-        includedPerks: ["Hello"],
-        excludedPerks: ["Hi"],
+        includedPerks: [
+            "1 quiz per day",
+            "Quiz storage",
+        ],
+        excludedPerks: [
+            "API access",
+            "Shareable quizzes",
+            "Authenticated quizzes",
+            "Customizable quizzes",
+            "Dedicated support",
+        ],
         popular: false,
     },
     {
         title: "Premium ",
         price: 20,
-        callToAction: "Create an account",
-        link: routes.login,
-        includedPerks: ["Hello"],
-        excludedPerks: ["Hi"],
+        callToAction: "Subscribe",
+        link: routes.plans,
+        includedPerks: [
+            "10 quizzes per day",
+            "Quiz storage",
+            "API access",
+            "Shareable quizzes",
+            "Customizable quizzes"
+        ],
+        excludedPerks: [
+            "Authenticated quizzes",
+            "Dedicated support"
+        ],
         popular: true,
     },
     {
         title: "Enterprise",
         price: 50,
-        callToAction: "Create an account",
-        link: routes.login,
-        includedPerks: ["Hello"],
-        excludedPerks: ["Hi"],
+        callToAction: "Subscribe",
+        link: routes.plans,
+        includedPerks: [
+            "Unlimited quizzes per day",
+            "Quiz storage",
+            "API access",
+            "Shareable quizzes",
+            "Customizable quizzes",
+            "Authenticated quizzes",
+            "Dedicated support"
+        ],
+        excludedPerks: [],
         popular: false,
     },
 ]

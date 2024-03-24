@@ -40,7 +40,7 @@ export default function UseCases() {
             image: Meeting,
             alt: "A smiling business woman attending an online meeting",
             callToAction: "Select your plan",
-            link: routes.pricing,
+            link: routes.plans,
             reverse: true,
             quote: "Ensure your co-workers are synced!",
             icon: "🎬"
