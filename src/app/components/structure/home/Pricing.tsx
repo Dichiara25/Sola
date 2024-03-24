@@ -85,7 +85,7 @@ function Plan(props: {
         return <div className={props.popular ? styles.popular : styles.box}>
             <h1 style={{marginBottom: "10px"}}>{props.title}</h1>
             <div className={bodyStyles.subtitle}>
-                <b>{props.annual && props.price > 0 ? <span><s style={{fontSize: "smaller"}}>${props.price}</s> <span>${props.price * annualDiscount}</span></span> : `$${props.price}`}</b>/month {props.annual && props.price > 0 && <span style={{fontSize: "smaller"}}>(${props.price * 12 * annualDiscount}/year)</span>}
+                <b>{props.annual && props.price > 0 ? <span><s style={{fontSize: "smaller"}}>${props.price}</s> <span>${props.price * annualDiscount}</span></span> : `$${props.price}`}</b>/month {props.price > 0 && <span style={{fontSize: "smaller"}}>(${props.price * 12 * (props.annual ? annualDiscount : 1)}/year)</span>}
             </div>
             <hr className={styles.divider} />
             <div className={styles.list}>
@@ -123,7 +123,7 @@ export default function Pricing() {
     return <div className={styles.main}>
         <h1>Available plans</h1>
         <div className={styles.subtitle}>
-            Subscribe to one of our plans.
+            You can cancel your plan anytime.
         </div>
         <div style={{display: "flex", flexDirection: "row", alignItems: "center", marginTop: "30px"}}>
             <Switch
@@ -131,7 +131,7 @@ export default function Pricing() {
                 handleToggle={setSwitched}
             />
             <b>
-                {switched ? "Annually" : "Monthly"}
+                {switched ? "Annual payment" : "Monthly payment"}
             </b>
         </div>
         <div className={styles.container}>
