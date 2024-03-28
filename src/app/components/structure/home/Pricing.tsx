@@ -100,8 +100,8 @@ function Plan(props: {
                 }
                 {
                     props.excludedPerks.map(
-                        (perk: string) => (
-                            <b className={styles.bulletPoint}>
+                        (perk: string, index: number) => (
+                            <b className={styles.bulletPoint} key={index}>
                                 ❌ <span style={{opacity: ".4"}}>{perk}</span>
                             </b>
                         )
