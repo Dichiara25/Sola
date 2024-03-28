@@ -58,7 +58,7 @@ export default function SignIn(props: {
             style={{marginTop: "20px"}}
             onClick={() => props.setExistingAccount(false)}
         >
-            Don't have an account yet?
+            Don`&apos;`t have an account yet?
         </a>
     </div>
 }
