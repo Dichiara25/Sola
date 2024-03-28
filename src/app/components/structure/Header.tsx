@@ -9,7 +9,7 @@ export function Brand() {
 
 export function Navigation() {
     return <>
-        <a href={routes.pricing} style={{marginLeft: "50px"}}>Pricing</a>
+        <a href={routes.plans} style={{marginLeft: "50px"}}>Pricing</a>
         <a href={routes.api} style={{marginLeft: "50px"}}>API</a>
         <a href={routes.cook} style={{marginLeft: "50px"}} className={styles.login}>
             <button>Generate quiz</button>

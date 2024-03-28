@@ -62,7 +62,7 @@ export default function Footer() {
         }
     ]
 
-    return <div className={styles.container} style={{flexDirection: "column", textAlign: "center"}}>
+    return <div className={styles.main} style={{flexDirection: "column", textAlign: "center"}}>
         <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
             <Brand />
             <Divider />

@@ -29,7 +29,7 @@
     padding: 20px 60px;
     border-radius: 10px;
     background-color: var(--light-background-color);
-    box-shadow: 0 0 5px 5px var(--second-color);
+    box-shadow: 0 0 15px 5px var(--second-color);
     scale: 1.1;
 }
 

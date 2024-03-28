@@ -91,8 +91,8 @@ function Plan(props: {
             <div className={styles.list}>
                 {
                     props.includedPerks.map(
-                        (perk: string) => (
-                            <b className={styles.bulletPoint}>
+                        (perk: string, index: number) => (
+                            <b className={styles.bulletPoint} key={index}>
                                 ✨ {perk}
                             </b>
                         )

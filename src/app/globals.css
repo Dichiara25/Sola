@@ -68,6 +68,13 @@ button:hover {
   box-shadow: 0 0 25px 5px var(--first-color);
 }
 
+button:disabled {
+  opacity: .4;
+  scale: 1;
+  cursor: auto;
+  box-shadow: none;
+}
+
 img {
   border-radius: 30px;
 }

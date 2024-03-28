@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background-color: var(--light-background-color);
+}
+
+.error {
+    margin: 20px 0 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+}
+
+.success {
+    margin: 20px 0 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: green;
+}
+
+.label {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.show {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.show:hover {
+    scale: 1.2;
+}
+
+.hint {
+    margin-top: 20px;
+    opacity: .8;
+    font-size: smaller;
+}
